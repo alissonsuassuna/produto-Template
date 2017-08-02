@@ -11,7 +11,7 @@ h1, h2, h3 {
     padding: 0;
     text-transform: uppercase;
     font-weight: 300;
-    color: #7D7764;
+    color:red;
 }
 
 h1 {
@@ -80,4 +80,45 @@ p, ul, ol {
 #page {
     overflow: hidden;
     padding: 20px 20px 40px 20px;
+}
+
+/*Tratamento de imagens*/
+.box-style {
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.box-style h2 {
+    padding: 10px 0px;
+    letter-spacing: -1px;
+    font-size: 22px;
+    color: #2D2D2D;
+}
+.box-style .image {
+    width: 324px;
+    height: 200px;
+}
+.box-style .content {
+    overflow:  hidden;
+    width: 324px;
+    padding: 30px;
+}
+/*Terceira coluna das imagebs*/
+#three-column{
+    overflow: hidden;
+    padding: 10px 0px 50px 0px;
+}
+
+#three-column .tbox1 {
+    float: left;
+    width: 384px;
+    margin-right: 20px;
+}
+#three-column .tbox2{
+    float: left;
+    width: 384px;   
+}
+#three-column .tbox3{
+    float: left;
+    width: 384px;   
 }
