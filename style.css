@@ -49,7 +49,7 @@ p, ul, ol {
 /*Logo do site */
 #logo {
     overflow: hidden;
-    height: 250px;
+    height: 179px;
 }
 #logo h1, #logo p {
     text-align: center;
@@ -224,6 +224,9 @@ p, ul, ol {
     overflow: hidden;
     padding: 20px 20px 40px 20px;
 }
+#page p {
+    margin-bottom: -50px;
+}
 
 /*Tratamento de imagens*/
 .box-style {
@@ -289,4 +292,87 @@ p, ul, ol {
 #foooter a:hover{
     text-decoration: none;
     color: #383838;
+}
+
+/*Slide Show*/
+
+#bloco{
+    width: 1500px;
+    height: auto;
+    margin: 100px auto;
+    background-color: #ddd;
+}
+
+.principal{
+    width: 1500px;
+    height: auto;
+    overflow: hidden;
+}
+
+.slide {
+    display: flex;
+    width: 400%;
+    transition: all .8s;
+}
+
+label img {
+    width: 125px;
+    cursor:  pointer;
+    float: left;
+    opacity: 0.3;
+    transition: all .4s;
+}
+
+#foto2:checked ~ .principal .slide {
+    margin-left: -150%;
+}
+
+#foto3:checked ~ .principal .slide {
+    margin-left: -250%;
+}
+
+#foto4:checked ~ .principal .slide {
+    margin-left: -350%;
+}
+
+#foto5:checked ~ .principal .slide {
+    margin-left: -150%;
+}
+
+#foto6:checked ~ .principal .slide {
+    margin-left: -550%;
+}
+#foto7:checked ~ .principal .slide {
+    margin-left: -600%;
+}
+
+#foto7:checked ~ .principal .slide {
+    margin-left: -700%;
+}
+
+#foto8:checked ~ .principal .slide {
+    margin-left: -800%;
+}
+
+#foto9:checked ~ .principal .slide {
+    margin-left: -900%;
+}
+
+#foto10:checked ~ .principal .slide {
+    margin-left: -1000%;
+}
+
+#foto11:checked ~ .principal .slide {
+    margin-left: -1100%;
+}
+
+#foto12:checked ~ .principal .slide {
+    margin-left: -1200%;
+}
+input[name="grupo"] {
+    display: none;
+}
+
+input[name="grupo"]:checked + label img {
+    opacity:  .9s;
 }
