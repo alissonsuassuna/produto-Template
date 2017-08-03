@@ -6,12 +6,25 @@ body {
     font-size: 13px;
     color: #8A8985;
 }
+
+main{
+    margin: 0px auto;
+    width: 1500px;
+    padding: 30px 0px;;
+}
+main {
+    display: block;
+    float: center;
+}
 h1, h2, h3 {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
     font-weight: 300;
-    color:red;
+    color:black;
+}
+h4{
+    font-size: 14px;
 }
 
 h1 {
@@ -32,6 +45,38 @@ p, ul, ol {
 .container {
     width:  1200px;
     margin:  0px auto;
+}
+/*Logo do site */
+#logo {
+    overflow: hidden;
+    height: 250px;
+}
+#logo h1, #logo p {
+    text-align: center;
+}
+#logo h1 {
+    padding: 50px 0px 0px 0px;
+    letter-spacing: -6px;
+    text-transform: lowercase;
+    font-size: 100px;
+}
+
+#logo p {
+    margin-top: -20px;
+    padding: 0px 0px 0px 5px;
+    font-size: 20px;
+    font-weight: 300px;
+    color: #696969;
+}
+#logo p a {
+    color: #696969;
+}
+
+#logo a {
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: #3C342E;
 }
 
 /* Menu*/
@@ -219,4 +264,29 @@ p, ul, ol {
 #three-column .tbox3{
     float: left;
     width: 384px;   
+}
+/*Rodapé (Footer)*/
+#footer{
+    height: 100px;
+    margin: 0 auto;
+    padding: 50px 0px 0px 0px;
+}
+
+#footer p {
+    margin: 0;
+    padding-top: 10px;
+    line-height: normal;
+    text-align: center;
+    text-shadow: 1px 1px 0px #FFFFFF;
+    color: #909090;
+}
+
+#footer a {
+    text-decoration: underline;
+    color: #909090;
+}
+
+#foooter a:hover{
+    text-decoration: none;
+    color: #383838;
 }
